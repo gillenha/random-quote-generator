@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- default css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<title>Random Sports Quote</title>
+</head>
+<body>
+<div class="container-fluid">
+  <h1>Random Sports Quote</h1>
+  <p>Click the button to see some of the most famous quotes in sports!</p>
+  <br>
+  	<button class="btn" onclick="getQuote()"><span>New Quote</span></button>
+  		<div class="quoteBox">
+   			<span id="quote">Nobody cares how much you know, until they know how much you care.</span>
+   			<br>
+    		<span id="author">- Mark Dantonio</span>
+  		</div>
+  	<button class="tweet-btn" onclick="tweetQuote()"><i class="fab fa-twitter"></i></button>
+
+</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

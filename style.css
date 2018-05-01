@@ -1,0 +1,74 @@
+body {
+  background-color: grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Black Ops One', cursive;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 1px;
+}
+
+p {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00aced;
+  border: none;
+  border-radius: 15px;
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color: #00aced;
+  transition: 0.5s;
+}
+
+button:active {
+  background-color: #00aced;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.tweet-btn {
+
+}
+
+.quoteBox {
+  width: 33%;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: auto;
+  color: white;
+  background-color: grey;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 30px;
+}
+
+#author {
+  font-size: 20px;
+  font-style: italic;
+  font-color: white;
+}
